@@ -1,3 +1,3 @@
 # Personal-Website
 
-Go to my [website](www.neilchawla.dev).
+Go to my [website](https://www.neilchawla.dev/).
