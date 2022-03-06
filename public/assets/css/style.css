@@ -296,7 +296,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #2c2f3f;
 }
 .about .content ul {
   list-style: none;
@@ -722,6 +722,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+/*
 .contact {
   padding-bottom: 130px;
 }
@@ -782,7 +783,7 @@ section {
   color: #fff;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #2c2f3f;
   color: #fff;
 }
 .contact .php-email-form {
@@ -882,6 +883,7 @@ section {
     transform: rotate(360deg);
   }
 }
+*/
 
 /*--------------------------------------------------------------
 # Breadcrumbs
