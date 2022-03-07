@@ -96,12 +96,12 @@
             <img src="/images/profile.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <br><br><br><br>
+            <br><br><br><br><br>
             <h3>Graduate Teaching Assistant.</h3>
-            <p class="fst-italic">
+            {{!-- <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
-            </p>
+            </p> --}}
             <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -450,54 +450,79 @@
 
         <div class="section-title">
           <h2>Projects</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          {{!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <div class="icon"><i class="fa-solid fa-futbol"></i></div>
-            <h4 class="title"><a href="">FootWiz: Soccer Dashboard</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <h4 class="title"><a href="https://github.com/UIC-CS484/assignment-2---final-project-repository-nchawl2" target="_blank">FootWiz: Soccer Dashboard</a></h4>
+            <p class="description"><i>ExpressJS</i></p>
+            <p class="description">A full-stack <a href="https://cs484-footwiz.herokuapp.com/" target="_blank"> web application </a> sourcing data from a RESTFul API 
+              to present an interactive soccer dashboard. Implements web security features and authentication using Passport.js
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="fa-solid fa-city"></i></div>
-            <h4 class="title"><a href="">Chicago Shadow Map Plot</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <h4 class="title"><a href="https://github.com/neilchawla/Shadow-Maps" target="_blank">Chicago Shadow Map Plot</a></h4>
+            <p class="description"><i>Angular</i></p>
+            <p class="description">Web application visualizing the spatial distribution of accumulated shadows per season of the year in Chicago on a map</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="fa-brands fa-airbnb"></i></div>
-            <h4 class="title"><a href="">Airbnb Exploratory Data Analysis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <h4 class="title"><a href="https://github.com/neilchawla/AirBnB_EDA" target="_blank">Airbnb Exploratory Data Analysis</a></h4>
+            <p class="description"><i>Python</i></p>
+            <p class="description">Data analysis on Airbnb listing datasets examining the relationship between neighborhoods and average price of rentals</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="fa-solid fa-virus-covid"></i></div>
-            <h4 class="title"><a href="">COVID-19 Tracker</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <h4 class="title"><a href="https://github.com/neilchawla/COVID19-Tracker_WebApp" target="_blank">COVID-19 Tracker</a></h4>
+            <p class="description"><i>C#, SQL</i></p>
+            <p class="description">Web application implemented using .NET and SQL that visualizes coronavirus data to gather insights on virus progression trends</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="fa-solid fa-language"></i></div>
-            <h4 class="title"><a href="">Comic Book Text Translator</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <h4 class="title"><a href="https://github.com/neilchawla/Comic-Book-Text-Translator" target="_blank">Comic Book Text Translator</a></h4>
+            <p class="description"><i>Python, OpenCV</i></p>
+            <p class="description">Computer vision project to detect text from comic book images using OCR text detection and covert it to a language of the users' choice</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
             <div class="icon"><i class="fa-solid fa-car"></i></div>
-            <h4 class="title"><a href="">Car Dealership</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <h4 class="title"><a href="https://github.com/neilchawla/Car_Gallery_App" target="_blank">Car Dealership</a></h4>
+            <p class="description"><i>Java</i></p>
+            <p class="description">Android application providing a gallery of car images, along with manufacturer details and nearby dealership information</p>
           </div>
         </div>
 
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="certifications" class="testimonials">
+    <!-- ======= Certifications Section ======= -->
+    <section id="certifications" class="services">
       <div class="container">
 
         <div class="section-title">
           <h2>Certifications</h2>
         </div>
 
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="fa-brands fa-apple"></i></div>
+            <h4 class="title">Apple Certified Macintosh Technician</a></h4>
+            <p class="description"><i>July 2020</i></p>
+            <p class="description">Completed coursework required to perform technical repairs on Apple devices <br>
+              Technician ID: 020CA76EB3
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+            <h4 class="title"><a href="">JP Morgan Chase Software Engineering Virtual Experience Program</a></h4>
+            <p class="description"><i>June 2020 - July 2020</i></p>
+            <p class="description">Explored the stock price data feed interface using proprietary JP Morgan Chase frameworks and tools to display data visually</p>
+          </div>
+        </div>
+
+        {{!-- <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
@@ -566,7 +591,7 @@
             </div><!-- End testimonial item -->
 
           </div>
-          <div class="swiper-pagination"></div>
+          <div class="swiper-pagination"></div> --}}
         </div>
 
       </div>
